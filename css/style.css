@@ -1,0 +1,106 @@
+
+
+.content {
+	box-shadow: 0px 0px 100px orange;
+	padding: 20px;
+	border: 1px solid blue;
+}
+body,
+.nav {
+	font-family: "Droid Serif", serif;
+	background: #000;
+	color: #fff;
+}
+
+
+ul.nav {
+	font-family: "Economica", "Droid Sans", sans-serif;
+	margin: 0 0 0 0;
+	list-style: none;
+	text-align: center;
+	padding: 0.25em;
+
+}
+
+a {
+	text-decoration: none;
+	color: lightblue;
+	transition: 1.5s;
+	float: left;
+	font-family: "Economica", "Droid Sans", sans-serif;
+	padding: 0.2em 1em;
+}
+
+.link {
+	/*NOTE: THIS IS FOR LINKS WITHIN THE CONTENT AREA, NOT FOR NAV OR LINKS AT BOTTOM OF PAGE */
+	padding: 0.02em;
+	border: none;
+}
+
+
+a:hover {
+	text-decoration: underline;
+	color: crimson;
+	transform: color 1s;
+	transform: background 1s;
+}
+
+h1 {
+	
+}
+
+hr {
+    border: 0;
+    height: 1px;
+	margin-top: 3%;
+    background: transparent;
+    background-image: -webkit-linear-gradient(left, transparent, rgb(10, 10, 255), transparent); 
+    background-image:    -moz-linear-gradient(left, transparent, rgb(10, 10, 255), transparent); 
+    background-image:     -ms-linear-gradient(left, transparent, rgb(10, 10, 255), transparent); 
+    background-image:      -o-linear-gradient(left, transparent, rgb(10, 10, 255), transparent); 
+}
+
+.site-heading {
+	font-weight: bold;
+	background: -webkit-radial-gradient(transparent, rgba(0,0,0,0.9)), -webkit-linear-gradient(transparent, rgba(0,0,0,0.9)), 
+				-webkit-radial-gradient(closest-side, transparent, rgba(255, 210, 0, 0.1)), url("img/islandsunset_free.jpg"), darkblue;
+	background: -moz-radial-gradient(transparent, rgba(0,0,0,0.9)), -moz-linear-gradient(transparent, rgba(0,0,0,0.9) 90%), 
+				-moz-radial-gradient(closest-side, transparent, rgba(255, 210, 0, 0.1)), url("img/islandsunset_free.jpg"), darkblue;
+	background: -ms-radial-gradient(transparent, rgba(0,0,0,0.9)), -ms-linear-gradient(transparent, rgba(0,0,0,0.9) 90%), 
+				-ms-radial-gradient(closest-side, transparent, rgba(255, 210, 0, 0.1)), url("img/islandsunset_free.jpg"), darkblue;
+	background: -o-radial-gradient(transparent, rgba(0,0,0,0.9)), -o-linear-gradient(transparent, rgba(0,0,0,0.9) 90%), 
+				-o-radial-gradient(closest-side, transparent, rgba(255, 210, 0, 0.1)), url("img/islandsunset_free.jpg"), darkblue;		
+	background-size: 100% 100%;
+	max-height: 300px;
+	text-align: center;
+	font-size: 9.375em;  /*200px*/
+	color: black;
+	height: 10.5em;
+	text-shadow: 0px -2px 8px gold;
+	
+}
+.sub-heading {
+	font-weight: bold;
+	font-family: "Droid Sans", sans-serif;
+	text-align: center;
+}
+
+.preview {
+	margin-left: 1.25em;
+}
+
+.preview:hover {
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+

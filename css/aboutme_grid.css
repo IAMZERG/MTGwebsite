@@ -1,0 +1,17 @@
+body {
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.grid2 {
+	max-width: 1000px;
+	width: 35%%;
+	padding: 2%;
+}
+.grid3 {
+	width: 100%;
+}
+
+.grid2 {
+	float: left;
+}
