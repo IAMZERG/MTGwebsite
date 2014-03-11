@@ -1,9 +1,9 @@
 
 
 .content {
-	box-shadow: 0px 0px 100px orange;
-	padding: 20px;
+	box-shadow: 0px 0px 20px orange;
 	border: 1px solid blue;
+	padding: 2em;
 }
 body,
 .nav {
@@ -32,27 +32,25 @@ a {
 }
 
 .link {
-	/*NOTE: THIS IS FOR LINKS WITHIN THE CONTENT AREA, NOT FOR NAV OR LINKS AT BOTTOM OF PAGE */
+	/*NOTE: THIS IS FOR LINKS WITHIN THE CONTENT AREA*/
 	padding: 0.02em;
 	border: none;
 }
 
+p {
+	padding-bottom: 1 em;
+}
 
 a:hover {
 	text-decoration: underline;
 	color: crimson;
-	transform: color 1s;
-	transform: background 1s;
-}
-
-h1 {
-	
+	transform: 1s;
 }
 
 hr {
     border: 0;
-    height: 1px;
-	margin-top: 3%;
+    height: 1px; /*This is acceptable since it's a horizontal rule*/
+	margin-top: 0.15em;
     background: transparent;
     background-image: -webkit-linear-gradient(left, transparent, rgb(10, 10, 255), transparent); 
     background-image:    -moz-linear-gradient(left, transparent, rgb(10, 10, 255), transparent); 
@@ -71,27 +69,22 @@ hr {
 	background: -o-radial-gradient(transparent, rgba(0,0,0,0.9)), -o-linear-gradient(transparent, rgba(0,0,0,0.9) 90%), 
 				-o-radial-gradient(closest-side, transparent, rgba(255, 210, 0, 0.1)), url("img/islandsunset_free.jpg"), darkblue;		
 	background-size: 100% 100%;
-	max-height: 300px;
+	max-height: 2em;
 	text-align: center;
 	font-size: 9.375em;  /*200px*/
 	color: black;
 	height: 10.5em;
-	text-shadow: 0px -2px 8px gold;
+	text-shadow: 0em -0.025em 0.25em gold;
 	
 }
 .sub-heading {
 	font-weight: bold;
 	font-family: "Droid Sans", sans-serif;
 	text-align: center;
+	padding: 1em;
 }
 
-.preview {
-	margin-left: 1.25em;
-}
 
-.preview:hover {
-	
-}
 
 
 
