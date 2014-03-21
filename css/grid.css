@@ -38,8 +38,8 @@
 
 @media only screen and (max-width: 800px) {
 	.content {
-		margin-left: 10%;
-		margin-right: 10%;
+		margin-left: 15%;
+		margin-right: 15%;
 	}
 	
 	div,
@@ -48,9 +48,6 @@
 	h1,
 	h2 {
 		padding-top: 0.5em;
-	}
-	.site-heading {
-		font-size: 20em;
 	}
 }
 

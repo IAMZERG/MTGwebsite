@@ -84,10 +84,37 @@ hr {
 	padding: 1em;
 }
 
+.copyright {
+	padding: 1.5em;
+}
+
+@media only screen and (max-width: 900px) {
+	.site-heading {
+		font-size: 75px;
+		margin-bottom:20px;
+		margin-top: 40px;
+	}
+	ul li {
+		margin: 10px;
+	}
+}
 
 
+@media only screen and (max-width: 800px) {
+	.site-heading {
 
+	}
+}
 
+@media only screen and (max-width: 400px) {
+	html {
+		font-size: 12px;
+	}
+	.site-heading {
+		font-size: 50px;
+		margin-bottom: 10px;
+	}
+}
 
 
 
